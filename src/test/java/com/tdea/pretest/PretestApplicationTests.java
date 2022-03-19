@@ -5,7 +5,9 @@ import org.junit.jupiter.api.Test;
 class PretestApplicationTests {
 
     @Test
-    void contextLoads() {
+    void isPasswordEqual() {
+        boolean b = UserUtils.isPasswordEqual("teo","teo");
+        assertTrue(b);
     }
 
 }
