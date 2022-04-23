@@ -7,8 +7,8 @@ Feature: user
 
   Scenario: Login del usuario
     Given url 'http://localhost:8080/user/login'
-    And params username = 'admin'
-    And params password = 'admin'
+    And param username = 'admin'
+    And param password = 'admin'
     When method get
     Then status 200
 
